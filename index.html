@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Design</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/master.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Start Settings Box -->
+    <div class="settings-box">
+      <div class="toggle-setting">
+        <i class="fa-solid fa-gear icon-setting"></i>
+      </div>
+      <div class="settings-container">
+        <div class="option-box">
+          <h4>Colors</h4>
+          <ul class="colors-list">
+            <li class="active Yellow" data-color="#e1dc0ae0"></li>
+            <li class="Red" data-color="red"></li>
+            <li class="Blue" data-color="blue"></li>
+            <li class="Brown" data-color="#e91e63"></li>
+            <li class="Green" data-color="green"></li>
+          </ul>
+        </div>
+        <div class="option-box">
+          <h4>Random Backgrounds</h4>
+          <span class="yes active" data-background="yes">Yes</span>
+          <span class="no" data-background="no">No</span>
+        </div>
+        <div class="option-box">
+          <h4>Show Bullets</h4>
+          <div class="chosen">
+          <span class="yes active" data-option="yes">Yes</span>
+          <span class="no" data-option="no">No</span>
+          </div>
+        </div>
+        <div class="reset-option">
+        <input type="reset" value="Reset Option" class="button-reset">
+        </div>
+      </div>
+    </div>
+    <!-- End Settings Box -->
+    <!-- Start Landing Page -->
+    <div class="landing-page">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="header-area">
+          <div class="logo"> <img src="./imgs/logo.png" alt=""> </div>
+          <ul class="links">
+            <li><a href="#" data-section=".about-us">About</a></li>
+            <li><a href="#" data-section=".skills">Skills</a></li>
+            <li><a href="#" data-section=".gallery">Gallery</a></li>
+            <li><a href="#" data-section=".timeline">Timeline</a></li>
+            <li><a href="#" data-section=".features">Features</a></li>
+            <li><a href="#" data-section=".testimonials">Testimonials</a></li>
+            <li><a href="#" data-section=".contact-us">Contact Us</a></li>
+            <li><a href="#" data-section=".personal-communication">Personal Communication</a></li>
+          </ul>
+          <img src="./imgs/list (1).png" alt="" class="img-list" style="cursor: pointer; z-index: 10;">
+        </div>
+      </div>
+      <div class="introduction-text">
+        <h1>We Are <span>Creative</span> Agency</h1>
+        <p style="text-align: center;">
+          Welcome to Our Company, where we are dedicated to providing <span style="font-weight: 600;">high-quality </span> products and services to our clients. Whether you are looking for custom software development, cloud computing solutions, or data analytics services, we have the expertise and resources to help you achieve your goals.
+        </p>
+      </div>
+    </div>
+    <!-- End Landing Page -->
+    <!-- Start Nav Bullets -->
+    <div class="nav-bullets">
+      <div class="bullets" data-section=".about-us">
+        <div class="tooltip">About Us</div>
+      </div>
+      <div class="bullets" data-section=".skills">
+        <div class="tooltip">Our Skills</div>
+      </div>
+      <div class="bullets" data-section=".gallery">
+        <div class="tooltip">Gallery</div>
+      </div>
+      <div class="bullets" data-section=".timeline">
+        <div class="tooltip">Timeline</div>
+      </div>
+      <div class="bullets" data-section=".features">
+        <div class="tooltip">Features</div>
+      </div>
+      <div class="bullets" data-section=".testimonials">
+        <div class="tooltip">Testimonials</div>
+      </div>
+      <div class="bullets" data-section=".contact-us">
+        <div class="tooltip">Contact Us</div>
+      </div>
+      <div class="bullets" data-section=".personal-communication">
+        <div class="tooltip" style="overflow: hidden; text-overflow: ellipsis;">Personal Communication</div>
+      </div>
+    </div>
+    <!-- End Nav Bullets -->
+    <!-- Start About Us -->
+    <div class="container">
+      <div class="about-us">
+        <div class="info-box">
+          <h2>About Us</h2>
+          <p>
+            Our team is made up of experts in <span style="font-weight: 600;">programming</span>, who are passionate about delivering exceptional results. We work closely with our clients to understand their needs and create products and services that meet their unique requirements
+          </p>
+        </div>
+        <div class="image-box">
+          <img src="./imgs/Usability testing.gif" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- End About Us -->
+    <!-- Start Our Skills -->
+    <div class="skills">
+        <div class="container">
+        <h2>Our Skills</h2>
+        <div class="skill-box">
+          <div class="skill-name">Html</div>
+          <div class="skill-progress">
+            <span data-progress="90%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Css</div>
+          <div class="skill-progress">
+            <span data-progress="70%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">JavaScript</div>
+          <div class="skill-progress">
+            <span data-progress="60%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Python</div>
+          <div class="skill-progress">
+            <span data-progress="80%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">MySQL</div>
+          <div class="skill-progress">
+            <span data-progress="80%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">PHP</div>
+          <div class="skill-progress">
+            <span data-progress="80%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Our Skills -->
+    <!-- Start Gallery -->
+    <div class="gallery">
+      <div class="container">
+        <h2>Gallery</h2>
+        <div class="images-box">
+          <!-- If You Need To Add Caption For Photo Used alt -->
+          <img src="./imgs/html-system-websites-concept.jpg">
+          <img src="./imgs/rear-view-programmer-working-all-night-long.jpg">
+          <img src="./imgs/desk-with-multiple-computer-monitors-displaying-parsing-code-programming-language-compiling-empty-software-developing-agency-office-servers-cloud-computing-big-data-algorithms.jpg">
+          <img src="./imgs/double-exposure-caucasian-man-virtual-reality-vr-headset-is-presumably-gamer-hacker-cracking-code-into-secure-network-server-with-lines-code.jpg">
+          <img src="./imgs/electronic-circuit-board-shallow-dof.jpg">
+          <img src="./imgs/html-system-website-concept.jpg" alt="">
+          <img src="./imgs/programming-background-collage (1).jpg" alt="">
+          <img src="./imgs/programming-background-collage.jpg" alt="">
+          <img src="./imgs/programming-language-workplace.jpg" alt="">
+          <img src="./imgs/technology-coffee-internet-beverage-cafe-data-concept.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- End Gallery -->
+    <!-- Start Timeline -->
+    <div class="timeline">
+      <div class="container">
+        <div class="timeline-content">
+          <div class="year">2023</div>
+          <div class="left">
+            <div class="content">
+              <h3>Software Development</h3>
+              <p>Custom web application development: We can develop custom web applications that are tailored to your specific business needs. Our web application development services include full-stack development, front-end development, and back-end development.</p>
+            </div>
+          </div>
+          <div class="right">
+            <div class="content">
+              <h3>Data Analytics</h3>
+              <p>Our data analytics services are designed to help our clients make data-driven decisions. We work closely with our clients to understand their needs and create products that meet their unique requirements. We believe in collaboration and communication, and we are committed to providing accurate and reliable data analysis that can help our clients make informed decisions.</p>
+            </div>
+          </div>
+          <div class="bottom-left">
+            <div class="content">
+              <h3>Cyber Security</h3>
+              <p>At our company, we take cyber security very seriously. We have a team of experienced cyber security professionals who are dedicated to protecting our clients' data and systems from cyber threats.</p>
+            </div>
+          </div>
+          <div class="bottom-right">
+            <div class="content">
+              <h3>Cloud Computing</h3>
+              <p>We believe that cloud computing is the future of technology. We offer a wide range of cloud computing services to help our clients achieve their business goals.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Timeline -->
+    <!-- Start Features -->
+    <div class="features">
+      <h2>Our Features</h2>
+      <div class="container">
+        <div class="feat-box">
+          <img src="./imgs/ux.png" alt="">
+          <h4>Analytics and tracking</h4>
+          <p>If you want to track user behavior and measure the performance of your website, you can add analytics and tracking features using tools like Google Analytics or Mixpanel.</p>
+        </div>
+        <div class="feat-box">
+          <img src="./imgs/web-development (1).png" alt="">
+          <h4>Code</h4>
+          <p>Coding refers to the process of writing computer programs using a programming language. It involves a combination of technical skills, such as problem-solving, logic, and creativity, as well as a willingness to learn and practice new skills.</p>
+        </div>
+        <div class="feat-box">
+          <img src="./imgs/responsive (1).png" alt="">
+          <h4>Flexibility</h4>
+          <p>Flexibility refers to the ability of a system or component to adapt to changing conditions or requirements. In the context of software development, flexibility refers to the ability of a system to be modified or adapted to meet new requirements or changes in circumstances.</p>
+        </div>
+        <div class="feat-box">
+          <img src="./imgs/programming.png" alt="">
+          <h4>Development</h4>
+          <p>
+            Development refers to the process of creating software, either as an individual or as part of a team. It involves a combination of technical skills, such as problem-solving, logic, and creativity, as well as a willingness to learn and practice new skills.</p>
+        </div>
+        <div class="feat-box">
+          <img src="./imgs/landing-page (1).png" alt="">
+          <h4>Responsive design</h4>
+          <p>A design that looks good on all devices, including desktops, tablets, and smartphones</p>
+        </div>
+        <div class="feat-box">
+          <img src="./imgs/layers (1).png" alt="">
+          <h4>Layers</h4>
+          <p>Layers are a fundamental concept in machine learning and deep learning. In these models, data is fed into a series of layers, which perform operations on the data and transform it into a more useful form.</p>
+        </div>
+      </div>
+    </div>
+    <!-- End Features -->
+    <!-- Start Testimonials -->
+    <div class="testimonials">
+      <h2>Testimonials</h2>
+      <div class="container">
+        <div class="ts-bos">
+          <img src="./imgs/man.png" alt="">
+          <p>"The software your programming company developed for us has increased our productivity and helped us serve our customers better."</p>
+          <div class="p2 private-p" style="margin-top: 30px;">Felix Hugo</div>
+          <span>Columbia University</span>
+        </div>
+        <div class="ts-bos">
+          <img src="./imgs/user.png" alt="">
+          <p>"Your programming company's commitment to quality and attention to detail is evident in the software you developed for us."</p>
+          <div class="p2" style="margin-top: 50px;">Lukas Leonie</div>
+          <span>Princeton University</span>
+        </div>
+        <div class="ts-bos">
+          <img src="./imgs/bussiness-man.png" alt="">
+          <p>"Your team's programming skills are exceptional. The software you developed for us is reliable, efficient, and user-friendly."</p>
+          <div class="p2" style="margin-top: 50px;">Alex Chloe</div>
+          <span>University of Cambridge</span>
+        </div>
+        <div class="ts-bos">
+          <img src="./imgs/girl (1).png" alt="">
+          <p>"Your programming company's ability to deliver software solutions within tight deadlines is commendable. Thank you for your excellent work!"</p>
+          <div class="p2 private-p2">Mia Noah</div>
+          <span>University of Bradford</span>
+        </div>
+        <div class="ts-bos">
+          <img src="./imgs/accountant (1).png" alt="">
+          <p>"Your programming company's software development services have exceeded our expectations. We look forward to working with you again in the future."</p>
+          <div class="p2">Jonas Vicente</div>
+          <span>Coventry University</span>
+        </div>
+        <div class="ts-bos">
+          <img src="./imgs/housekeeper (1).png" alt="">
+          <p>"I am very happy to use this good site, I found many new qualities in it, Really it was an excellent experience, I'm so grateful for that, I don't know what to say."</p>
+          <div class="p2">Martina Zofia</div>
+          <span>Durham University</span>
+        </div>
+      </div>
+    </div>
+    <!-- End Testimonials -->
+    <!-- Start Contact Us -->
+    <div class="contact-us">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>We will be very happy to communicate with you.</p>
+        <div class="contact-box">
+        <div class="form">
+        <form action="" method="post">
+          <div class="input-name">
+          <input type="text" name="theName" class="theName" placeholder="Name" style="text-indent: 28px;" required>
+          <img src="./imgs/user (1).png" alt="" class="icon">
+          </div>
+          <div class="input-name">
+          <input type="text" name="theName" class="theName" placeholder="Number" style="text-indent: 28px;" required maxlength="11">
+          <img src="./imgs/phone-call.png" alt="" class="icon">
+          </div>
+          <div class="input-email">
+          <input type="email" name="theEmail" class="theEmail" placeholder="E-mail" style="text-indent: 28px;" required>
+          <img src="./imgs/envelope.png" alt="" class="icon2">
+          </div>
+          <div class="input-name">
+            <input type="text" name="theName" class="theName" placeholder="Location" style="text-indent: 28px;" required>
+            <img src="./imgs/marker.png" alt="" class="icon">
+          </div>
+          <div class="input-name">
+              <input type="url" name="theName" class="theName" placeholder="Web" style="text-indent: 28px;">
+              <img src="./imgs/globe.png" alt="" class="icon">
+          </div>
+          <div class="input-text">
+            <textarea name="theMsg" class="theMsg" cols="30" rows="10" required placeholder="Message"></textarea>
+          </div>
+          <div class="input-submit">
+          <input type="submit" value="Send">
+          </div>
+        </form>
+        </div>
+        <div class="img-box">
+        <img src="./imgs/5143151.jpg" alt="">
+        </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Contact Us -->
+    <!-- Start Personal Communication -->
+    <div class="personal-communication">
+      <div class="container" data-tilt>
+        <h2>Personal Communication</h2>
+        <p>You can communicate me personally</p>
+        <div class="personal-box">
+          <div class="personal-info">
+          <img src="./imgs/Picsart_23-03-08_19-20-48-385.jpg" alt="" class="person-img">
+          <h3>Hesham Apdo</h3>
+          <p>Computer Science<img src="./imgs/hacker.png" alt="" class="img-ico1"></p>
+          <p class="p-personal-info">Problems Solver<img src="./imgs/consultant.png" alt="" class="img-ico3"></p>
+          <p class="p-personal-info">Git&GitHup<img src="./imgs/github.png" alt="" class="img-ico4"></p>
+          <p class="p-personal-info">Front-End Developer<img src="./imgs/programming (1).png" alt="" class="img-ico2"></p>
+        </div>
+          <div class="personal-icons">
+            <a href="https://wa.me/+0201050055294" title="Whatsapp"><img src="./imgs/whatsapp.png" alt="Whatsapp"></a>
+            <a href="https://www.facebook.com/profile.php?id=100038151555640&mibextid=ZbWKwL" title="Facebook"><img src="./imgs/facebook.png" alt=""></a>
+            <a href="https://t.me/HESHAM07" title="Telegram"><img src="./imgs/telegram.png" alt=""></a>
+            <a href="" title="Soon it will be available" class="not-available"><img src="./imgs/instagram (1).png" alt=""></a>
+            <a href="" title="Soon it will be available" class="not-available"><img src="./imgs/twitter.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Personal Communication -->
+    <!-- Start Button Up -->
+    <div class="btn-up">
+      <img src="./imgs/up-arrow (1).png" alt="" class="button-up">
+    </div>
+    <!-- End Button Up -->
+    <script src="js/main.js"></script>
+    <script src="vanilla-tilt.js"></script>
+  </body>
+</html>
