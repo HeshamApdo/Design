@@ -993,6 +993,9 @@ body {
   .contact-us .contact-box::before {
     left: -11px;
   }
+  .personal-communication {
+    height: 110vh;
+}
   .personal-communication .personal-box .personal-info .person-img {
     width: 250px;
   }
@@ -1017,6 +1020,7 @@ body {
   .introduction-text{
     width: 300px;
     top: 60%;
+    z-index: 1;
   }
   .introduction-text p{
     width: auto;
@@ -1074,7 +1078,7 @@ body {
   .header-area .links{
     display: flex;
     flex-wrap: wrap;
-    background-color: #77777778;
+    background-color: #777777f0;
     z-index: 5;
     margin: 50px 30px;
     border-top-left-radius: 20px;
